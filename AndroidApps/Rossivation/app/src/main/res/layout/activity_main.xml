@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20sp"
+
+        android:layout_marginBottom="30sp"
+
+        android:background="@android:color/holo_blue_bright"
+
+        android:text="Click the Button to Receive a Motivational Text!"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+
+        tools:visibility="visible" />
+
+
+    <Button
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="30sp"
+
+        android:background="@android:color/holo_orange_dark"
+
+        android:onClick="searchTitle"
+        android:text="Get Motivated!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/titleResult"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="30sp"
+        android:textSize="32sp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/holo_blue_bright"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
